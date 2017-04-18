@@ -2,6 +2,7 @@
   "name": "todolist",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://cjs840312.github.io/ToDoList/",
   "dependencies": {
     "react": "^15.5.3",
     "react-dom": "^15.5.3"
@@ -19,6 +20,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "deploy": "npm run build&&gh-pages -d build"
   }
 }
